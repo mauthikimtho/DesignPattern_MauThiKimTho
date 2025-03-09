@@ -53,7 +53,7 @@ public class Employee {
         Scanner scanner = new Scanner(System.in);
         Position[] positions = Position.values();
         while (true) {
-            System.out.println("Chọn chức vụ:");
+            System.out.println("-----No pattern----Chọn chức vụ:");
             for (int i = 0; i < positions.length; i++) {
                 System.out.println((i + 1) + ". " + positions[i].getTitle());
             }
